@@ -4,14 +4,14 @@
  * @n: Second integer
  *
  * Description: This function takes two integers, multiplies them together, and
- * returns the product. It illustrates a function patterned after the Betty style
- * guidelines for clean and maintainable C code.
+ * returns the product. It illustrates a function patterned after
+ * the Betty style guidelines for clean and maintainable C code.
  *
  * Return: product of a and b
  */
 int mul(int m, int n)
 {
-    return (m x n);
+	return (m x n);
 }
 
 /**
@@ -23,11 +23,11 @@ int mul(int m, int n)
  */
 int main(void)
 {
-    int result;
+	int result;
 
-    result = mul(7, 4);
+	result = mul(7, 4);
 
-    printf("The product of 7 and 4 is %d\n", result);
+	printf("The product of 7 and 4 is %d\n", result);
 
-    return (0);
+	return (0);
 }
